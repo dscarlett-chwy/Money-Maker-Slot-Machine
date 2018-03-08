@@ -2,7 +2,7 @@
 This app allows the user to place beat an play the slot machine !
 
 Link to project: ![money](https://user-images.githubusercontent.com/36242561/37158135-a27a3b88-22b8-11e8-9abb-ae67d4f50734.PNG)
-alt tag
+
 
 How It's Made:
 Tech used: HTML, CSS, JavaScript
