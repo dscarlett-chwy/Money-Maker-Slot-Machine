@@ -1,0 +1,87 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+.head img{
+margin-left: 5%;
+}
+.maxBet, .minBet{
+  float: left;
+  width: 100%;
+  margin-right: -75%;
+
+}
+#total{
+float: right;
+margin-top: -50px;
+margin-right: 10%;
+}
+#win-lose{
+  width: 10%;
+ margin-left: 50%;
+}
+
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body{
+  background-color: #FDFFCA;
+ font-family: 'Playfair Display', serif;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+h1{
+  text-align: center;
+  color: rgb(12, 36, 97);
+}
+.container{
+  margin-left: 20%;
+}
+#first, #second , #third{
+  width: 25%;
+  height: 200px;
+  box-shadow: 3px 3px 3px 3px rgb(248, 194, 145);
+  border-radius: 5px;
+
+}
+#machine1, #machine2, #machine3{
+  display: inline;
+
+}
+#min, #max, #start{
+  width: 15%;
+  height: 50px;
+  font-size: 2em;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: rgb(248, 239, 186);
+  color:black;
+}
